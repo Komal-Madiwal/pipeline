@@ -8,7 +8,7 @@ It performs the following steps:
 3. **Alignment** – using BWA  
 4. **Conversion to BAM** – using Samtools
 
-
+```
 ## Folder Structure
 .
 ├── input
@@ -39,7 +39,7 @@ It performs the following steps:
     ├── reference.fasta.bwt
     ├── reference.fasta.pac
     └── reference.fasta.sa
-
+```
 
 ## How to Run
 
