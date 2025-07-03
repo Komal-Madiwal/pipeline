@@ -1,0 +1,90 @@
+Started analysis of SRR29766486_1.fastq
+Approx 5% complete for SRR29766486_1.fastq
+Approx 10% complete for SRR29766486_1.fastq
+Approx 15% complete for SRR29766486_1.fastq
+Approx 20% complete for SRR29766486_1.fastq
+Approx 25% complete for SRR29766486_1.fastq
+Approx 30% complete for SRR29766486_1.fastq
+Approx 35% complete for SRR29766486_1.fastq
+Approx 40% complete for SRR29766486_1.fastq
+Approx 45% complete for SRR29766486_1.fastq
+Approx 50% complete for SRR29766486_1.fastq
+Approx 55% complete for SRR29766486_1.fastq
+Approx 60% complete for SRR29766486_1.fastq
+Approx 65% complete for SRR29766486_1.fastq
+Approx 70% complete for SRR29766486_1.fastq
+Approx 75% complete for SRR29766486_1.fastq
+Approx 80% complete for SRR29766486_1.fastq
+Approx 85% complete for SRR29766486_1.fastq
+Approx 90% complete for SRR29766486_1.fastq
+Approx 95% complete for SRR29766486_1.fastq
+Started analysis of SRR29766486_2.fastq
+Approx 5% complete for SRR29766486_2.fastq
+Approx 10% complete for SRR29766486_2.fastq
+Approx 15% complete for SRR29766486_2.fastq
+Approx 20% complete for SRR29766486_2.fastq
+Approx 25% complete for SRR29766486_2.fastq
+Approx 30% complete for SRR29766486_2.fastq
+Approx 35% complete for SRR29766486_2.fastq
+Approx 40% complete for SRR29766486_2.fastq
+Approx 45% complete for SRR29766486_2.fastq
+Approx 50% complete for SRR29766486_2.fastq
+Approx 55% complete for SRR29766486_2.fastq
+Approx 60% complete for SRR29766486_2.fastq
+Approx 65% complete for SRR29766486_2.fastq
+Approx 70% complete for SRR29766486_2.fastq
+Approx 75% complete for SRR29766486_2.fastq
+Approx 80% complete for SRR29766486_2.fastq
+Approx 85% complete for SRR29766486_2.fastq
+Approx 90% complete for SRR29766486_2.fastq
+Approx 95% complete for SRR29766486_2.fastq
+TrimmomaticPE: Started with arguments:
+ -phred33 /home/training/NGS_HPC/pipeline/input/SRR29766486_1.fastq /home/training/NGS_HPC/pipeline/input/SRR29766486_2.fastq /home/training/NGS_HPC/pipeline/output/trimm/SRR29766486_T_1.fastq /home/training/NGS_HPC/pipeline/output/trimm/SRR29766486_U_1.fastq /home/training/NGS_HPC/pipeline/output/trimm/SRR29766486_T_2.fastq /home/training/NGS_HPC/pipeline/output/trimm/SRR29766486_U_2.fastq LEADING:3 TRAILING:3 MINLEN:36
+Input Read Pairs: 89509 Both Surviving: 88987 (99.42%) Forward Only Surviving: 4 (0.00%) Reverse Only Surviving: 3 (0.00%) Dropped: 515 (0.58%)
+TrimmomaticPE: Completed successfully
+[bwa_index] Pack FASTA... 0.00 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 0.00 seconds elapse.
+[bwa_index] Update BWT... 0.00 sec
+[bwa_index] Pack forward-only FASTA... 0.00 sec
+[bwa_index] Construct SA from BWT and Occ... 0.00 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home/training/NGS_HPC/pipeline/reference/reference.fasta
+[main] Real time: 0.025 sec; CPU: 0.011 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 82316 sequences (10000220 bp)...
+[M::process] read 77946 sequences (10000087 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (4, 20657, 3, 2)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (96, 147, 203)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 417)
+[M::mem_pestat] mean and std.dev: (154.01, 73.77)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 524)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 82316 reads in 2.022 CPU sec, 2.029 real sec
+[M::process] read 17712 sequences (2285647 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 18372, 2, 3)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (114, 162, 219)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 429)
+[M::mem_pestat] mean and std.dev: (169.41, 73.53)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 534)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 77946 reads in 2.026 CPU sec, 2.034 real sec
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 4114, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (114, 163, 221)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 435)
+[M::mem_pestat] mean and std.dev: (170.49, 73.91)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 542)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 17712 reads in 0.495 CPU sec, 0.497 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem /home/training/NGS_HPC/pipeline/reference/reference.fasta /home/training/NGS_HPC/pipeline/output/trimm/SRR29766486_T_1.fastq /home/training/NGS_HPC/pipeline/output/trimm/SRR29766486_T_2.fastq
+[main] Real time: 4.656 sec; CPU: 4.634 sec
